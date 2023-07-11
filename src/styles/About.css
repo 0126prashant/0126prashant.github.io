@@ -1,0 +1,89 @@
+.about-container {
+    width: 100%;
+    min-height: 100vh; /* Use min-height to allow content to expand if needed */
+    background-color: #111827;
+    color: #ffffff;
+    padding: 20px; 
+  }
+ 
+  .about-content {
+    /* border :2px solid red; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 8px;
+    padding-bottom: 8px;
+  }
+  .about-details{
+    /* border :2px solid red; */
+    display: flex;
+  }
+  .about-details > .profile-image{
+    /* border :2px solid red; */
+    width: 50%;
+    /* display: flex; */
+  }
+  .about-section-heading {
+    font-size: 4rem;
+    font-weight: bold;
+    border-bottom: 4px solid #ff9d00;
+    margin-bottom: 20px; /* Add some spacing at the bottom */
+  }
+  
+  .profile-image {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  .user-intro {
+    width: 50%;
+    text-align: center; /* Center the user intro text */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px; /* Add some spacing at the top */
+  }
+  #user-detail-intro{
+    font-size: 19px;
+  }
+  .resume-button {
+    background-color: #ff5782;
+    color: #ffffff;
+    font-weight: bold;
+    /* padding: 12px 24px; */
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content; 
+    margin: auto;
+  }
+  
+  .resume-button-icon {
+    margin-left: 5px; 
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 768px) {
+    /* Styles for smaller screens */
+    .about-content {
+      max-width: 90%; /* Adjust the max-width for smaller screens */
+    }
+  
+    .about-section-heading {
+      font-size: 3rem; /* Decrease the font size for smaller screens */
+    }
+  
+    .profile-image {
+      font-size: 3rem; /* Decrease the font size for smaller screens */
+    }
+  
+    .user-intro {
+      font-size: 1.5rem; /* Decrease the font size for smaller screens */
+    }
+  }
+  

@@ -1,0 +1,41 @@
+.stats-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111827;
+    color: #ffffff;
+  }
+  
+  .stats-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .stats-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .github-activity-calendar {
+    margin-top: 4rem;
+    padding: 0 1rem;
+  }
+  
+  .github-commits-graph {
+    margin-top: 16px;
+  }
+  
+  @media (min-width: 576px) {
+    .stats-content {
+      flex-direction: row;
+    }
+  
+    .stats-image {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
