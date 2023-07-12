@@ -1,13 +1,9 @@
-
-
-
-
 import React from "react";
 import { data } from "../data/data.js";
 import "../styles/Projects.css"
 
 
-const Work = () => {
+const Project = () => {
   const projects = data;
 
   return (
@@ -48,4 +44,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Project;

@@ -1,11 +1,12 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
+import Project from "./components/Project";
 // import Navbar from "./components/Navbar";
-// import Skills from "./components/Skills";
-// import Project from "./components/Projects";
+import Skills from "./components/Skills";
+
 import Stats from "./components/Stats";
-// import Footer from "./components/Footer";
 
 
 function App() {
@@ -21,12 +22,12 @@ function App() {
 
       <div className="bg-[#111827]">
         <About />
-        {/* <Skills /> */}
-        {/* <Project /> */}
+        <Skills />
         
+        <Project/>
         <Stats />
         <Contact />
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     </div>
   );
