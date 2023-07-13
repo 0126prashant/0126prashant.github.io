@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsFillPersonLinesFill, BsPhone } from "react-icons/bs";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import Resume from "../assets/resume.pdf";
 import "../styles/Contact.css"
@@ -55,6 +55,16 @@ const Contact = () => {
                 <span className="contact-label">Github</span>
               </a>
             </li>
+            <li className="contact-item">
+                <a
+                   id="contact-phone"
+                   href="tel:+1234567890"
+                   className="contact-link"
+                 >
+                   <FaPhone size={30} />
+                   <span className="contact-label">Mobile Number</span>
+                 </a>
+               </li>
             <li className="contact-item">
               <a
                 id="contact-email"

@@ -1,6 +1,6 @@
 .about-container {
     width: 100%;
-    min-height: 100vh; /* Use min-height to allow content to expand if needed */
+    min-height: 100vh; 
     background-color: #111827;
     color: #ffffff;
     padding: 20px; 
@@ -30,7 +30,7 @@
     font-size: 4rem;
     font-weight: bold;
     border-bottom: 4px solid #ff9d00;
-    margin-bottom: 20px; /* Add some spacing at the bottom */
+    margin-bottom: 20px; 
   }
   
   .profile-image {
@@ -40,15 +40,20 @@
   }
   
   .user-intro {
-    width: 50%;
-    text-align: center; /* Center the user intro text */
+    width: 46%;
+    text-align: center; 
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 20px; /* Add some spacing at the top */
+    /* margin-top: 20px;  */
+    font-size:19px;
+    /* border: 2px solid red; */
   }
-  #user-detail-intro{
-    font-size: 19px;
-  }
+
+
+  /* #user-detail-intro{
+    font-size:px;
+    
+  } */
   .resume-button {
     background-color: #ff5782;
     color: #ffffff;
@@ -69,21 +74,21 @@
   /* Media Queries */
   
   @media (max-width: 768px) {
-    /* Styles for smaller screens */
+    
     .about-content {
-      max-width: 90%; /* Adjust the max-width for smaller screens */
+      max-width: 90%; 
     }
   
     .about-section-heading {
-      font-size: 3rem; /* Decrease the font size for smaller screens */
+      font-size: 3rem; 
     }
   
     .profile-image {
-      font-size: 3rem; /* Decrease the font size for smaller screens */
+      font-size: 3rem; 
     }
   
     .user-intro {
-      font-size: 1.5rem; /* Decrease the font size for smaller screens */
+      font-size: 1.5rem; 
     }
   }
   

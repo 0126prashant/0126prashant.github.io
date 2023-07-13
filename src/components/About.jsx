@@ -10,46 +10,35 @@ const About = () => {
     <div id="about" name="about" className="about-container">
       <div className="about-content">
         <div className="about-heading">
-          <p id="about" className="about-section-heading">
+          <p id="about" className="about-section-heading about section">
             About
           </p>
         </div>
       </div>
 
       <div className="about-details">
-        <div className="profile-image">
+        <div className="profile-image home-img" >
           <img src={passport} alt="profile-image" />
         </div> 
         <div className="user-intro">
-        <p id="user-detail-intro">
-            An enthusiastic and driven Full Stack Web Developer eagerly seeking
-            opportunities within an organization to apply extensive skills and
-            expertise, driving growth and achievement for the company. Committed
-            to constant learning and advancement, this developer aims to stay at
-            the forefront of industry trends and emerging technologies. With a
-            proven track record in creating dynamic and user-friendly websites
-            using a diverse tech stack, including HTML, CSS, JavaScript, React,
-            Redux, and ChakraUI, this individual thrives in collaborative and
-            innovative environments. Dedicated to delivering high-quality
-            solutions, the developer is poised to make a meaningful impact on
-            the organization's success.
+        <p id="user-detail-intro user-detail-name">
+        Passionate about crafting exceptional digital experiences, I am an enthusiastic and driven Full Stack Web Developer. With a hunger for knowledge and a constant drive to stay ahead of the curve, I am always seeking new opportunities to apply my extensive skills and expertise. I bring a dynamic blend of creativity and technical prowess, leveraging a diverse tech stack including HTML, CSS, JavaScript, React, Redux, and ChakraUI. From designing sleek user interfaces to developing robust backend systems, I thrive in collaborative and innovative environments. With a proven track record of delivering high-quality solutions, I am ready to make a meaningful impact on your organization's success, driving growth and achievement in this fast-paced digital landscape.
           </p>
         </div>      
       </div>
 
-
       <div className="resume-button">
-        <a id="resume-link-2" href={Resume} download={"Prashant-som-resume"}>
-          <button className="resume-button">
-            <div className="resume-button-content">
-              Resume{" "}
-              <span className="resume-button-icon">
-                <AiOutlineCloudDownload />
-              </span>
-            </div>
-          </button>
-        </a>
-      </div>
+            <a href={Resume} download={"Prashant-Som-Resume"}>
+              <button className="resume-download-button">
+                <div className="button-content">
+                  Resume
+                  <span className="button-icon">
+                    <AiOutlineCloudDownload />
+                  </span>
+                </div>
+              </button>
+            </a>
+          </div>
     </div>
   );
 };

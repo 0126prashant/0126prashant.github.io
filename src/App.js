@@ -2,8 +2,9 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 import Project from "./components/Project";
-// import Navbar from "./components/Navbar";
+
 import Skills from "./components/Skills";
 
 import Stats from "./components/Stats";
@@ -12,7 +13,8 @@ import Stats from "./components/Stats";
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
+      
+      <Navbar/>
       <div className="relative min-h-screen bg-[#111827]" >
     
         <div className="z-2 ">
