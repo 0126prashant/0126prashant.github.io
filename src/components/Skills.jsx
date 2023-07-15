@@ -19,9 +19,6 @@ const Skills = () => {
     <div id="skills" className="skills-container">
       <div className="skills-content">
         <h2 className="skills-heading">Skills</h2>
-        <p className="skills-description">
-          These are the technologies I've worked with
-        </p>
         <div className="skills-grid">
           <div className="skills-card">
             <img

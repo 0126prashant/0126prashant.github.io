@@ -1,5 +1,5 @@
 .work-container {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     padding: 20px;
     background-color: #111827;
     color: #ffffff;
@@ -14,7 +14,11 @@
     font-size: 2rem;
     font-weight: bold;
     border-bottom: 4px solid #ff9d00;
-    margin-bottom: 20px;
+    display: inline-block; 
+    /* margin-bottom: 20px; */
+    margin-left: 45%;
+    /* text-align: center; */
+    
   }
   
   .work-description {

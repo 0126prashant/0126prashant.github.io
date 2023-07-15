@@ -1,20 +1,27 @@
 .skills-container {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background-color: #111827;
     color: #ffffff;
+    /* border: 2px solid red; */
+     /* height: 100vh; */
   }
   
   .skills-content {
-    max-width: 1000px;
+    /* max-width: 1000px; */
+    width: 80%;
+    /* border: 2px solid red; */
+    /* height: 100vh;  */
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+    /* padding-top: 90px; */
   }
   
   .skills-heading {
     font-size: 2rem;
     font-weight: bold;
     border-bottom: 4px solid #ff9d00;
+    display: inline-block; 
     margin-bottom: 1rem;
   }
   
