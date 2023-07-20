@@ -78,8 +78,9 @@
     
     .about-content {
       max-width: 90%; 
+     
     }
-  
+ 
     .about-section-heading {
       font-size: 3rem; 
     }
@@ -90,6 +91,15 @@
   
     .user-intro {
       font-size: 1.5rem; 
+      
+      display: none;
     }
+    /* .user-intro-second{
+      border: 3px solid red;
+      height: 50%;
+      width: 100%;
+      overflow: hidden;
+    
+    } */
   }
   
