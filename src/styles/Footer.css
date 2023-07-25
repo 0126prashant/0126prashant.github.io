@@ -40,7 +40,9 @@
     height: 1.25rem;
     width: 1.25rem;
   }
-  
+  #user-detail-name{
+     color: #d1d5db;
+  }
   .mobile-number {
     position: absolute;
     background-color: #1f2937;

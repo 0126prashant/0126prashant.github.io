@@ -25,8 +25,8 @@ export const data = [
   {
     id: 1,
     name: "JavaScript Application",
-    pName: "Ajio",
-    pDesc:
+    projectname: "Ajio",
+    projectdescription:
       "A clone of Ajio website which is an  e-commerce company that offers a wide range of clothing, accessories, and footwear.",
     image: [Ajioone],
     // image: [Ajioone,AjioTwo,AjioThree,AjioFour,AjioFive,AjioSix,AjioSeven,AjioEight,AjioNine],
@@ -41,8 +41,8 @@ export const data = [
   {
     id: 2,
     name: "JavaScript Application",
-    pName: "Ajio",
-    pDesc:
+    projectname: "Ajio",
+    projectdescription:
       "A clone of Ajio website which is an  e-commerce company that offers a wide range of clothing, accessories, and footwear.",
     // image: [Ajioone,AjioTwo,AjioThree,AjioFour,AjioFive,AjioSix,AjioSeven,AjioEight,AjioNine],
     image: [Ajioone],
@@ -57,8 +57,8 @@ export const data = [
   {
     id: 3,
     name: "JavaScript Application",
-    pName: "Ajio",
-    pDesc:
+    projectname: "Ajio",
+    projectdescription:
       "A clone of Ajio website which is an  e-commerce company that offers a wide range of clothing, accessories, and footwear.",
     image: [Ajioone],
     github: "https://github.com/0126prashant/Ajio-Clone",
@@ -74,8 +74,8 @@ export const data = [
     name: "React JS Application",
     image: [ShopaOne],
     // image: [ShopaOne,ShopaTwo,ShopaThree,ShopaFour,ShopaFive,ShopaSix,ShopaSeven,ShopaEight,ShopaNine],
-    pName: "Shopa",
-    pDesc:
+    projectname: "Shopa",
+    projectdescription:
       "Shopa is a E-commerce website where users can buy clothing products online",
     github: "https://github.com/0126prashant/shopa-clone",
     live: "https://quickbuy-363.netlify.app/",
