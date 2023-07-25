@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.264a1e62.css",
-    "main.js": "/static/js/main.799170a6.js",
+    "main.js": "/static/js/main.36b8b3ba.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/gameSphere.png": "/static/media/gameSphere.3888766b63973edd797b.png",
     "static/media/1.png": "/static/media/1.4449cdfec32f0b61f14c.png",
@@ -19,11 +19,11 @@
     "static/media/chakraUi.jfif": "/static/media/chakraUi.75ac18c74d2d25c70d92.jfif",
     "index.html": "/index.html",
     "main.264a1e62.css.map": "/static/css/main.264a1e62.css.map",
-    "main.799170a6.js.map": "/static/js/main.799170a6.js.map",
+    "main.36b8b3ba.js.map": "/static/js/main.36b8b3ba.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.264a1e62.css",
-    "static/js/main.799170a6.js"
+    "static/js/main.36b8b3ba.js"
   ]
 }
