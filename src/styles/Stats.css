@@ -1,15 +1,17 @@
 .stats-container {
     /* max-width: 1000px; */
     /* width: 80%; */
-    margin: 0 auto;
-    padding: 0 100px;
     background-color: #111827;
     color: #ffffff;
     /* border: 2px solid red; */
+    /* padding-left:0 100px; */
+    /* margin: auto; */
+    /* padding-right: 200px; */
   }
   .skills-heading{
     margin-left: 40%;
-   
+    white-space: nowrap;
+   /* border: 2px solid red; */
   }
   .stats-content {
     /* border: 2px solid yellow;  */

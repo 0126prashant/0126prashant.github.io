@@ -26,10 +26,10 @@ const Project = () => {
                 </div>
                 <div className="project-links">
                   <a href={project.github} target="_blank" rel="noopener noreferrer">
-                    <button className="link-button">Code</button>
+                    <button className="project-github-link link-button">Code</button>
                   </a>
                   <a href={project.live} target="_blank" rel="noopener noreferrer">
-                    <button className="link-button">Live</button>
+                    <button className="project-deployed-link link-button">Live</button>
                   </a>
                 </div>
               </div>

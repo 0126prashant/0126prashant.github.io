@@ -12,7 +12,11 @@
     font-family: Arial, sans-serif;
     z-index: 10;
   }
-  
+  #resume-button-1{
+    border: none;
+    background: none;
+    color: #fff;
+  }
   .logo-container {
     display: flex;
     justify-content: center;

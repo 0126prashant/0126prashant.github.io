@@ -58,11 +58,11 @@ const Contact = () => {
             <li className="contact-item">
                 <a
                    id="contact-phone"
-                   href="tel:+1234567890"
+                   href="tel:+91 7310972277"
                    className="contact-link"
                  >
                    <FaPhone size={30} />
-                   <span className="contact-label">Mobile Number</span>
+                   <span className="contact-label">7310972277</span>
                  </a>
                </li>
             <li className="contact-item">
@@ -77,9 +77,11 @@ const Contact = () => {
             </li>
             <li className="contact-item">
               <a
-                id="resume-link-2"
-                href={Resume}
-                download={"Prashant-Som-Resume"}
+                 href={Resume} download={"Prashant-Som-Resume"}
+            onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/10PFPlZeAnCnPwTzyjGX56JQASF87DnMt/view?usp=sharing"
+            )}}
                 className="contact-link"
               >
                 <BsFillPersonLinesFill size={30} />

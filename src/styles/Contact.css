@@ -5,7 +5,28 @@
     background-color: #111827;
     color: #ffffff;
   }
+  .contact-item {
+    position: relative;
+  }
   
+  .contact-label {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .contact-item:hover .contact-label {
+    opacity: 1;
+  }
   .contact-content {
     display: flex;
     flex-direction: column;

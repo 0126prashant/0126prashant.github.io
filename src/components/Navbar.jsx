@@ -43,9 +43,33 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="nav-link resume">
-          <a href={Resume} download={"Prashant-Som-Resume"}>
+        {/* ------------------------------ */}
+        <a
+          id="resume-link-1"
+          className="nav-link resume"
+          href={Resume}
+          download="Prashant-Som-Resume"
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/10ltqGl86IRpunqeh7J_ZRbYHYHFRtky2/view?usp=sharing"
+            );
+          }}
+        >
+          <button id="resume-button-1" >
             Resume
-          </a>
+          </button>
+        </a>
+        {/* ------------------------------ */}
+          {/* <a
+           id="resume-link-1"  
+          href={Resume} download=""
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/10PFPlZeAnCnPwTzyjGX56JQASF87DnMt/view?usp=sharing"
+            )}}>
+            Resume
+          </a> */}
+           
         </li>
       </ul>
 
@@ -80,9 +104,21 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="mobile-link resume">
-          <a href={Resume} download={"Prashant-Som-Resume"}>
+        <a
+          id="resume-link-1"
+          className="nav-link resume"
+          href={Resume}
+          download="Prashant-Som-Resume"
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/10ltqGl86IRpunqeh7J_ZRbYHYHFRtky2/view?usp=sharing"
+            );
+          }}
+        >
+          <button id="resume-button-1" >
             Resume
-          </a>
+          </button>
+        </a>
         </li>
       </ul>
 

@@ -16,9 +16,18 @@ const Home = () => {
   I have a strong foundation in full stack development, with a focus on MERN stack technologies (MongoDB, Express.js, React.js, and Node.js). I'm proficient in building responsive and user-friendly web applications using these technologies. I have experience in developing RESTful APIs, integrating databases, and implementing authentication and authorization systems. I enjoy working with JavaScript and have knowledge of HTML and CSS for creating beautiful and intuitive user interfaces. I'm constantly learning and exploring new technologies to stay up-to-date with the latest industry trends. I'm passionate about creating efficient and scalable solutions that meet user needs and deliver a great user experience.
 </p>
 
-          <div className="resume-button">
-            <a href={Resume} download={"Prashant-Som-Resume"}>
-              <button className="resume-download-button">
+<div className="resume-button">
+            <a 
+            id="resume-link-2"  
+            href={Resume} download={"Prashant-Som-Resume"}
+            onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/10ltqGl86IRpunqeh7J_ZRbYHYHFRtky2/view?usp=sharing"
+            )}}
+            >
+              <button 
+               id="resume-button-2"
+              className="resume-download-button">
                 <div className="button-content">
                   Resume
                   <span className="button-icon">

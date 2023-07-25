@@ -18,11 +18,13 @@
   }
   
   .skills-heading {
+    /* border: 2px solid; */
     font-size: 2rem;
     font-weight: bold;
     border-bottom: 4px solid #ff9d00;
     display: inline-block; 
     margin-bottom: 1rem;
+    margin-right: 40%;
   }
   
   .skills-description {

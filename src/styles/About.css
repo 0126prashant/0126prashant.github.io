@@ -21,11 +21,18 @@
   .about-details{
     /* border :2px solid red; */
     display: flex;
+    margin: auto;
+    width: 80%;
   }
-  .about-details > .profile-image{
+  .about-details > div {
     /* border :2px solid red; */
     width: 50%;
-    /* display: flex; */
+
+  }
+  .about-details > div >img{
+    /* border :2px solid red; */
+    width: 100%;
+
   }
   .about-section-heading {
     font-size: 2rem;

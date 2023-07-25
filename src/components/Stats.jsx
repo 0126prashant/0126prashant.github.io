@@ -13,7 +13,8 @@ const Stats = () => {
     <img
       id="github-streak-stats"
       // className="stats-image"
-      src="https://github-readme-stats.vercel.app/api?username=0126prashant"
+      src="https://github-readme-streak-stats.herokuapp.com/?user=0126prashant"
+      // src="[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=0126prashant)](https://git.io/streak-stats)"
       alt="GitHub Streak Stats"
     />
   {/* </a> */}
