@@ -46,12 +46,12 @@ const Navbar = () => {
         {/* ------------------------------ */}
         <a
           id="resume-link-1"
-          className="nav-link resume"
+          // className="nav-link resume"
           href={Resume}
           download="Prashant-Som-Resume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/10ltqGl86IRpunqeh7J_ZRbYHYHFRtky2/view?usp=sharing"
+              "https://drive.google.com/file/d/1IFWGMbm4uLxjvq0b9W1076L__2CoTHsV/view?usp=sharing"
             );
           }}
         >
@@ -106,12 +106,11 @@ const Navbar = () => {
         <li className="mobile-link resume">
         <a
           id="resume-link-1"
-          className="nav-link resume"
           href={Resume}
           download="Prashant-Som-Resume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/10ltqGl86IRpunqeh7J_ZRbYHYHFRtky2/view?usp=sharing"
+              "https://drive.google.com/file/d/1IFWGMbm4uLxjvq0b9W1076L__2CoTHsV/view?usp=sharing"
             );
           }}
         >

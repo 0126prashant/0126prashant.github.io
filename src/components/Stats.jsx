@@ -9,20 +9,17 @@ const Stats = () => {
     <h2 className="skills-heading">My GitHub Stats</h2>
       <div className="stats-content">
       <div >
-  {/* <a href="https://github.com/0126prashant"> */}
     <img
       id="github-streak-stats"
-      // className="stats-image"
+      className="stats-image"
       src="https://github-readme-streak-stats.herokuapp.com/?user=0126prashant"
-      // src="[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=0126prashant)](https://git.io/streak-stats)"
       alt="GitHub Streak Stats"
     />
-  {/* </a> */}
 </div>
         <div >
           <img
             id="github-stats-card"
-            // className="stats-image"
+            className="stats-image"
             src="https://github-readme-stats.vercel.app/api?username=0126prashant&show_icons=true&locale=en"
             alt="GitHub Stats Card"
           />
@@ -30,7 +27,7 @@ const Stats = () => {
         <div >
           <img
           id="github-top-langs"
-            // className="stats-image"
+            className="stats-image"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=0126prashant"
             alt="github-langs-cards"
           />

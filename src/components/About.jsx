@@ -29,28 +29,6 @@ const About = () => {
       </div>
 {/* Hide this line for passing the testcases */}
 
-{/* ------------------------------------ */}
-{/* <div className="resume-button">
-<a
-          id="resume-link-2"
-          className="nav-link resume"
-          href={Resume}
-          download="Prashant-Som-Resume"
-          onClick={() => {
-            window.open(
-              "https://drive.google.com/file/d/10PFPlZeAnCnPwTzyjGX56JQASF87DnMt/view?usp=sharing"
-            );
-          }}
-        >
-          <button
-            id="resume-button-2"
-          >
-            Resume
-          </button>
-        </a>
-        </div> */}
-{/* ------------------------------------ */}
-
 
       <div className="resume-button">
             <a 
@@ -58,7 +36,7 @@ const About = () => {
             href={Resume} download={"Prashant-Som-Resume"}
             onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/10ltqGl86IRpunqeh7J_ZRbYHYHFRtky2/view?usp=sharing"
+              "https://drive.google.com/file/d/1IFWGMbm4uLxjvq0b9W1076L__2CoTHsV/view?usp=sharing"
             )}}
             >
               <button 
@@ -73,7 +51,7 @@ const About = () => {
               </button>
             </a>
           </div>
-    </div>
+       </div>
   );
 };
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsFillPersonLinesFill, BsPhone } from "react-icons/bs";
+import { BsFillPersonLinesFill,  } from "react-icons/bs";
 import { FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import Resume from "../assets/resume.pdf";
@@ -80,7 +80,7 @@ const Contact = () => {
                  href={Resume} download={"Prashant-Som-Resume"}
             onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/10PFPlZeAnCnPwTzyjGX56JQASF87DnMt/view?usp=sharing"
+              "https://drive.google.com/file/d/1IFWGMbm4uLxjvq0b9W1076L__2CoTHsV/view?usp=sharing"
             )}}
                 className="contact-link"
               >

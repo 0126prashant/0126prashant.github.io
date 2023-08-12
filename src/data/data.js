@@ -86,8 +86,8 @@ export const data = [
     projectdescription:
       "Gamesphere is a gaming website where users can buy or rent games and movies ",
     image: [gameSphere],
-    github: "https://github.com/0126prashant/Ajio-Clone",
-    live: "https://splendid-concha-d2fd6d.netlify.app/",
+    github: "https://github.com/0126prashant/Game-Sphere",
+    live: "game-sphere.vercel.app/",
     tech: [
       { name: "React" },
       { name: "React-Redux" },
