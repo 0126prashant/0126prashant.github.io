@@ -58,11 +58,11 @@ const Contact = () => {
             <li className="contact-item">
                 <a
                    id="contact-phone"
-                   href="tel:+91 7310972277"
+                   href="tel:+91 9548848329"
                    className="contact-link"
                  >
                    <FaPhone size={30} />
-                   <span className="contact-label">7310972277</span>
+                   <span className="contact-label">9548848329</span>
                  </a>
                </li>
             <li className="contact-item">

@@ -33,7 +33,7 @@ const Footer = () => {
                 <BsPhone className="footer-icon-phone" />
                 {showMobileNumber && (
                   <div className="mobile-number">
-                    <span className="mobile-number-text">+91-7310972277</span>
+                    <span className="mobile-number-text">+91-9548848329</span>
                   </div>
                 )}
               </div>
