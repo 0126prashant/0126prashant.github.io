@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ab18df3.css",
-    "main.js": "/static/js/main.ea10de61.js",
+    "main.css": "/static/css/main.efdf5c6f.css",
+    "main.js": "/static/js/main.8b71f27e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/gameSphere.png": "/static/media/gameSphere.3888766b63973edd797b.png",
     "static/media/1.png": "/static/media/1.4449cdfec32f0b61f14c.png",
@@ -18,12 +18,12 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/chakraUi.jfif": "/static/media/chakraUi.75ac18c74d2d25c70d92.jfif",
     "index.html": "/index.html",
-    "main.4ab18df3.css.map": "/static/css/main.4ab18df3.css.map",
-    "main.ea10de61.js.map": "/static/js/main.ea10de61.js.map",
+    "main.efdf5c6f.css.map": "/static/css/main.efdf5c6f.css.map",
+    "main.8b71f27e.js.map": "/static/js/main.8b71f27e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ab18df3.css",
-    "static/js/main.ea10de61.js"
+    "static/css/main.efdf5c6f.css",
+    "static/js/main.8b71f27e.js"
   ]
 }
