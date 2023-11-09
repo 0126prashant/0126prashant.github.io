@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
-
+import "./styles/App.css"
 import Skills from "./components/Skills";
 
 import Stats from "./components/Stats";
@@ -12,7 +12,7 @@ import Stats from "./components/Stats";
 
 function App() {
   return (
-    <div>
+    <div className="app-main">
       
       <Navbar/>
       <div className="relative min-h-screen bg-[#111827]" >

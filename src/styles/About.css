@@ -7,7 +7,9 @@
     padding: 20px; 
     /* border :2px solid red; */
   }
- 
+.about-details-mobile{
+  display: none;
+}
   .about-content {
     display: flex;
     /* flex-direction: row; */
@@ -50,9 +52,9 @@
   
   .user-intro {
     width: 46%;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-left: 30px; 
-    font-size:20px;
+    font-size:25px;
     /* border: 2px solid red; */
   }
 
@@ -91,21 +93,20 @@
       font-size: 3rem; 
     }
   
-    .profile-image {
-      font-size: 3rem; 
-    }
-  
-    .user-intro {
-      font-size: 1.5rem; 
-      
-      display: none;
-    }
-    /* .user-intro-second{
-      border: 3px solid red;
-      height: 50%;
-      width: 100%;
-      overflow: hidden;
+  .about-details{
+    display: none;
+  }
     
-    } */
+    .about-details-mobile{
+     /* border: 2px solid red; */
+    }
+    .image-mob{
+      width: 90%;
+    }
+    .user-intro-mob{
+      /* border: 2px solid red; */
+      width: 90%;
+      text-align: justify;
+    }
   }
   

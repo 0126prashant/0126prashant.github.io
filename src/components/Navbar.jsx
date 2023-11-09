@@ -51,7 +51,7 @@ const Navbar = () => {
           download="Prashant-Som-Resume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1IFWGMbm4uLxjvq0b9W1076L__2CoTHsV/view?usp=sharing"
+              "https://drive.google.com/file/d/1QFoxdMHiLmq0QOtwaP1iLzO7x5CvsoRv/view?usp=sharing"
             );
           }}
         >
@@ -110,7 +110,7 @@ const Navbar = () => {
           download="Prashant-Som-Resume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1IFWGMbm4uLxjvq0b9W1076L__2CoTHsV/view?usp=sharing"
+              "https://drive.google.com/file/d/1QFoxdMHiLmq0QOtwaP1iLzO7x5CvsoRv/view?usp=sharing"
             );
           }}
         >

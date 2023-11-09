@@ -22,10 +22,20 @@ const About = () => {
         </div> 
         <div id="user-detail-intro" className="user-intro">
         <p>
-        Passionate about crafting exceptional digital experiences, I am an enthusiastic and driven Full Stack Web Developer. With a hunger for knowledge and a constant drive to stay ahead of the curve, I am always seeking new opportunities to apply my extensive skills and expertise. I bring a dynamic blend of creativity and technical prowess, leveraging a diverse tech stack including HTML, CSS, JavaScript, React, Redux, and ChakraUI. From designing sleek user interfaces to developing robust backend systems, I thrive in collaborative and innovative environments. With a proven track record of delivering high-quality solutions, I am ready to make a meaningful impact on your organization's success, driving growth and achievement in this fast-paced digital landscape.
+        A highly motivated Full Stack Developer with a deep passion for coding and a strong dedication to product-based companies. Proficient in React, JavaScript, and CSS, excelling in the creation of single-page applications to deliver outstanding user experiences. Possessing over 1200+ hours of hands-on coding experience in HTML, CSS, Javascript, and React.js. A strong enthusiasm for Generative AI fuels the goal of securing a Software Developer position, with the aim of enhancing product experiences.
           </p>
-        </div>      
-            
+        </div>              
+      </div>
+{/* Hide this line for passing the testcases */}
+      <div className="about-details-mobile">
+        <div>
+          <img  src={passport} alt="image-mob"  className="image-mob"/>
+        </div> 
+        <div id="user-detail-intro-mob" className="user-intro-mob">
+        <p>
+        A highly motivated Full Stack Developer with a deep passion for coding and a strong dedication to product-based companies. Proficient in React, JavaScript, and CSS, excelling in the creation of single-page applications to deliver outstanding user experiences. Possessing over 1200+ hours of hands-on coding experience in HTML, CSS, Javascript, and React.js. A strong enthusiasm for Generative AI fuels the goal of securing a Software Developer position, with the aim of enhancing product experiences.
+          </p>
+        </div>              
       </div>
 {/* Hide this line for passing the testcases */}
 
@@ -36,7 +46,7 @@ const About = () => {
             href={Resume} download={"Prashant-Som-Resume"}
             onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1IFWGMbm4uLxjvq0b9W1076L__2CoTHsV/view?usp=sharing"
+              "https://drive.google.com/file/d/1QFoxdMHiLmq0QOtwaP1iLzO7x5CvsoRv/view?usp=sharing"
             )}}
             >
               <button 
