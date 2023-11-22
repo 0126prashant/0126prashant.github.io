@@ -90,54 +90,17 @@ const Contact = () => {
             </li>
           </ul>
         </div>
+ {/* ... Your existing contact links ... */}
+ <div className="newform">
+  <div > <h2><span>Email</span>  : prashantsom75@gmail.com</h2> </div>
+  <div > <h2><span>Mobile-no</span>  :+91 9548848329</h2> </div>
+  <div > <h2> <span>Portfolio</span>  : https://0126prashant.github.io/</h2> </div>
+  <div > <h2><span>Github</span> : https://github.com/0126prashant</h2> </div>
+</div>
 
-        {/* Added by me from here */}
-        <div className="contact-form">
-          <form onSubmit={handleSubmit} className="form">
-            <div className="form-group">
-              <label htmlFor="name" className="form-label">
-                Name:
-              </label>
-              <input
-                type="text"
-                id="name"
-                className="form-input"
-                value={name}
-                onChange={(e) => handleInputChange(e, setName)}
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="email" className="form-label">
-                Email:
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="form-input"
-                value={email}
-                onChange={(e) => handleInputChange(e, setEmail)}
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="message" className="form-label">
-                Message:
-              </label>
-              <textarea
-                id="message"
-                className="form-textarea"
-                value={message}
-                onChange={(e) => handleInputChange(e, setMessage)}
-                required
-              ></textarea>
-            </div>
-            <button type="submit" className="form-submit">
-              Send Message
-            </button>
-          </form>
-        </div>
-        {/* Till here */}
+
+
+    {/* Add any other details you want here */}
       </div>
     </div>
   );

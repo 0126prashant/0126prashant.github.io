@@ -20,7 +20,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-content">
-          <p className="footer-text">© 2023 My-Portfolio. All rights reserved.</p>
+          <p className="footer-text">© 2023 Prashant-protfolio. All rights reserved.</p>
         </div>
         <div className="footer-icons">
           <ul className="footer-list">

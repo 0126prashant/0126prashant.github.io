@@ -4,6 +4,7 @@ import Ajioone from "../assets/projects/ajio/A-one.png"
 import bloombazar from "../assets/projects/bloombazar.png"
 import paytm from "../assets/projects/paytm-mall.png"
 import gameSphere from "../assets/projects/gameSphere.png"
+import Netflix from "../assets/projects/Netflix.png"
 
 // Shopa clone
 import ShopaOne from "../assets/projects/Shopa/1.png"
@@ -11,12 +12,31 @@ import ShopaOne from "../assets/projects/Shopa/1.png"
 
 export const data = [
   {
+    id: 6,
+    name: "React Application",
+    projectname: "Netflix-clone",
+    projectdescription:
+      "Netflix clone, a web application designed to replicate the popular streaming service's user interface and functionality. It provides users with a seamless experience of browsing and watching movies and TV shows, just like on the original platform.",
+    image: [Netflix],
+    github: "https://github.com/0126prashant/Paytm-mall-clone-",
+    live: "venerable-dodol-6fc0d2.netlify.app/",
+    tech: [
+      { name: "React-Js" },
+      { name: "Redux" },
+      { name: "Node-Js" },
+      { name: "Express-Js" },
+      { name: "MongoDB" },
+      { name: "Chakra-UI" },
+      { name: "CSS-3" },
+    ],
+  },
+  {
     id: 1,
     name: "React JS Application",
     image: [ShopaOne],
-    projectname: "Shopa",
+    projectname: "Quick-buy",
     projectdescription:
-      "Shopa is a E-commerce website where users can buy clothing products for men and women online",
+      "Quick-buy is a E-commerce website where users can buy clothing products for men and women online",
     github: "https://github.com/0126prashant/shopa-clone",
     live: "https://quickbuy-363.netlify.app/",
     tech: [
@@ -36,7 +56,7 @@ export const data = [
       "Paytm Mall website clone. Paytm mall is a platform provided by Paytm for user to shop, it works just like any other E-Commerce website or Application.",
     image: [paytm],
     github: "https://github.com/0126prashant/Paytm-mall-clone-",
-    live: "polite-pithivier-90b026.netlify.app/",
+    live: "https://polite-pithivier-90b026.netlify.app/",
     tech: [
       { name: "JavaScript" },
       { name: "Html" },

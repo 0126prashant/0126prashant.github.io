@@ -80,6 +80,9 @@
     margin-left: 5px; 
   }
   
+
+ 
+ 
   /* Media Queries */
   
   @media (max-width: 768px) {
@@ -99,6 +102,7 @@
     
     .about-details-mobile{
      /* border: 2px solid red; */
+     display: block;
     }
     .image-mob{
       width: 90%;
@@ -110,3 +114,11 @@
     }
   }
   
+
+  @media all and (min-width: 451px) and (max-width: 750px) {
+    
+    .about-details-mobile{
+      /* border: 2px solid red; */
+      display: block;
+     }
+  }
