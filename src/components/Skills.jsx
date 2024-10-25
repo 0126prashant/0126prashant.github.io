@@ -13,6 +13,17 @@ import Mongo from "../assets/mongo.png";
 import Typescript from "../assets/typescript.png";
 import ChakraUi from "../assets/chakraUi.jfif";
 import Redux from "../assets/projects/tech/redux.png";
+import Aws from "../assets/logo_0.png";
+import Vercel from "../assets/logo-vercel.svg";
+import  Next from "../assets/nextlogo.jpg";
+import  Python from "../assets/python-logo.jpeg";
+import  Azure from "../assets/azurelogo.jpeg";
+import  GenAi from "../assets/Generative_AI_(2).png";
+import  Tailwind from "../assets/tailwind.png";
+import  PromptEng from "../assets/prompteng.webp";
+import  RunPod from "../assets/runpod.png";
+import  Hugginface from "../assets/huggingface.png";
+import  Docker from "../assets/docker.jpeg";
 
 const Skills = () => {
   return (
@@ -118,6 +129,99 @@ const Skills = () => {
             />
             <p className="skills-card-name">Express</p>
           </div>
+
+
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={Aws}
+              alt="aws icon"
+            />
+            <p className="skills-card-name">AWS</p>
+          </div>
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={Next}
+              alt="next icon"
+            />
+            <p className="skills-card-name">Next-Js</p>
+          </div>
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={Vercel}
+              alt="Vercel icon"
+            />
+            <p className="skills-card-name">Vercel</p>
+          </div>
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={Python}
+              alt="Python icon"
+            />
+            <p className="skills-card-name">Python</p>
+          </div>
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={Azure}
+              alt="Azure icon"
+            />
+            <p className="skills-card-name">Azure</p>
+          </div>
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={GenAi}
+              alt="GenAi icon"
+            />
+            <p className="skills-card-name">Generative_AI_</p>
+          </div>
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={PromptEng}
+              alt="PromptEng icon"
+            />
+            <p className="skills-card-name">Prompt Engineering</p>
+          </div>
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={Tailwind}
+              alt="Tailwind icon"
+            />
+            <p className="skills-card-name">Tailwind-Css</p>
+          </div>
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={Hugginface}
+              alt="Hugginface icon"
+            />
+            <p className="skills-card-name">Hugginface</p>
+          </div>
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={RunPod}
+              alt="RunPod icon"
+            />
+            <p className="skills-card-name">RunPod</p>
+          </div>
+          <div className="skills-card">
+            <img
+              className="skills-card-img"
+              src={Docker}
+              alt="Docker icon"
+            />
+            <p className="skills-card-name">Docker</p>
+          </div>
+
+
+
         </div>
       </div>
     </div>

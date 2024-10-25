@@ -13,7 +13,9 @@ const Home = () => {
           <h1 id="user-detail-name">PRASHANT SOM</h1>
           <h2 id="user-detail-intro" className="job-title">Full Stack Web Developer.</h2>
           <p className="description">
-          I have a strong foundation in full stack development, with a focus on MERN stack technologies (MongoDB, Express.js, React.js, and Node.js). I'm proficient in building responsive and user-friendly web applications using these technologies. Recently, I've added generative AI to my skill set, allowing me to create intelligent and dynamic content. I have experience in developing RESTful APIs, integrating databases, and implementing authentication and authorization systems. I enjoy working with JavaScript and have knowledge of HTML and CSS for creating beautiful and intuitive user interfaces. I'm constantly learning and exploring new technologies to stay up-to-date with the latest industry trends. I'm passionate about creating efficient and scalable solutions that meet user needs and deliver a great user experience.
+          I possess a solid foundation in full stack development, specializing in MERN stack technologies (MongoDB, Express.js, React.js, and Node.js). I am proficient in building responsive and user-friendly web applications, and I have recently expanded my skill set to include generative AI, enabling me to craft intelligent and dynamic content. My experience includes developing RESTful APIs, integrating databases, and implementing robust authentication and authorization systems.
+
+I enjoy working with JavaScript and have a strong grasp of HTML and CSS for creating beautiful and intuitive user interfaces. Additionally, I am familiar with Express.js, Next.js, Redux, Git, and have a background in data structures and algorithms, Python, and cloud platforms like AWS and Azure. Committed to continuous learning, I actively explore new technologies to stay abreast of industry trends, driven by a passion for delivering efficient, scalable solutions that enhance user experience.
 </p>
 
 <div className="resume-button">
@@ -22,7 +24,7 @@ const Home = () => {
             href={Resume} download={"Prashant-Som-Resume"}
             onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1QFoxdMHiLmq0QOtwaP1iLzO7x5CvsoRv/view?usp=sharing"
+              "https://drive.google.com/file/d/1lebhSso8IshOxeoq-7VoFDw_ZyMWCXH1/view?usp=sharing"
             )}}
             >
               <button 

@@ -5,12 +5,53 @@ import bloombazar from "../assets/projects/bloombazar.png"
 import paytm from "../assets/projects/paytm-mall.png"
 import gameSphere from "../assets/projects/gameSphere.png"
 import Netflix from "../assets/projects/Netflix.png"
+import CRO from "../assets/projects/cro.png" 
+import Audio from "../assets/projects/audiosmith.png"
 
 // Shopa clone
 import ShopaOne from "../assets/projects/Shopa/1.png"
 
 
 export const data = [
+  {
+    id: 8,
+    name: "Fullstack Application",
+    projectname: "Audio Smith",
+    projectdescription:
+      "AI-Powered Conversion Rate Optimization Insights at Your Fingertips.",
+    image: [Audio],
+    github: "https://github.com/0126prashant/cro-so",
+    live: "https://audio.promptsmith.co/",
+    tech: [
+      { name: "React-Js" },
+      { name: "Tailwind-css" },
+      { name: "Python" },
+      { name: "Django" },
+      { name: "OpenAI-api" },
+      { name: "langchain" },
+    ],
+  },
+  {
+    id: 7,
+    name: "Fullstack Application",
+    projectname: "CRO-so",
+    projectdescription:
+      "AI-Powered Conversion Rate Optimization Insights at Your Fingertips.",
+    image: [CRO],
+    github: "https://github.com/0126prashant/cro-so",
+    live: "https://cro.promptsmith.co/",
+    tech: [
+      { name: "React-Js" },
+      { name: "Node-Js" },
+      { name: "Express-Js" },
+      { name: "MongoDB" },
+      { name: "Tailwind-css" },
+      { name: "langchain" },
+      { name: "RAG" },
+      { name: "ChromaDB" },
+      { name: "OpenAI-api" },
+    ],
+  },
   {
     id: 6,
     name: "React Application",
