@@ -1,30 +1,36 @@
 {
   "files": {
     "main.css": "/static/css/main.efdf5c6f.css",
-    "main.js": "/static/js/main.ff56d613.js",
+    "main.js": "/static/js/main.a0f4902b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/cro.png": "/static/media/cro.0643bb6c9c66e54ceb1b.png",
     "static/media/gameSphere.png": "/static/media/gameSphere.3888766b63973edd797b.png",
     "static/media/Netflix.png": "/static/media/Netflix.048500436a96d73ceef5.png",
     "static/media/1.png": "/static/media/1.4449cdfec32f0b61f14c.png",
+    "static/media/resume.pdf": "/static/media/resume.9273cccdf7061ab92fed.pdf",
     "static/media/bloombazar.png": "/static/media/bloombazar.227377e243fc303074f7.png",
     "static/media/passport.png": "/static/media/passport.59708a04b42a70bd982e.png",
     "static/media/A-one.png": "/static/media/A-one.1496c2d47e0361af5f04.png",
     "static/media/paytm-mall.png": "/static/media/paytm-mall.2b63d19969ec99b7713b.png",
-    "static/media/resume.pdf": "/static/media/resume.2bd77c21bf3dd1527025.pdf",
+    "static/media/audiosmith.png": "/static/media/audiosmith.74517418867006035a7a.png",
+    "static/media/Generative_AI_(2).png": "/static/media/Generative_AI_(2).32441ffd97ef48b86c54.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/prompteng.webp": "/static/media/prompteng.5164fc029e9b1da74c87.webp",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/logo_0.png": "/static/media/logo_0.7322b6e4bff581d35533.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/chakraUi.jfif": "/static/media/chakraUi.75ac18c74d2d25c70d92.jfif",
     "index.html": "/index.html",
+    "static/media/logo-vercel.svg": "/static/media/logo-vercel.e939159f8dcd5cad534a93caf63b0b3c.svg",
     "main.efdf5c6f.css.map": "/static/css/main.efdf5c6f.css.map",
-    "main.ff56d613.js.map": "/static/js/main.ff56d613.js.map",
+    "main.a0f4902b.js.map": "/static/js/main.a0f4902b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efdf5c6f.css",
-    "static/js/main.ff56d613.js"
+    "static/js/main.a0f4902b.js"
   ]
 }
