@@ -89,23 +89,23 @@ export const data = [
     ],
   },
   
-  {
-    id: 2,
-    name: "JavaScript Application",
-    projectname: "Paymt mall clone",
-    projectdescription:
-      "Paytm Mall website clone. Paytm mall is a platform provided by Paytm for user to shop, it works just like any other E-Commerce website or Application.",
-    image: [paytm],
-    github: "https://github.com/0126prashant/Paytm-mall-clone-",
-    live: "https://polite-pithivier-90b026.netlify.app/",
-    tech: [
-      { name: "JavaScript" },
-      { name: "Html" },
-      { name: "CSS" },
-      { name: "json-server" },
-      { name: "Bootstrap" },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   name: "JavaScript Application",
+  //   projectname: "Paymt mall clone",
+  //   projectdescription:
+  //     "Paytm Mall website clone. Paytm mall is a platform provided by Paytm for user to shop, it works just like any other E-Commerce website or Application.",
+  //   image: [paytm],
+  //   github: "https://github.com/0126prashant/Paytm-mall-clone-",
+  //   live: "https://polite-pithivier-90b026.netlify.app/",
+  //   tech: [
+  //     { name: "JavaScript" },
+  //     { name: "Html" },
+  //     { name: "CSS" },
+  //     { name: "json-server" },
+  //     { name: "Bootstrap" },
+  //   ],
+  // },
   {
     id: 3,
     name: "React-js Application",
@@ -114,7 +114,7 @@ export const data = [
       "A flower website where user can buy fresh flowers online with secure payment ",
     image: [bloombazar],
     github: "https://github.com/0126prashant/-lousy-bottle-860",
-    live: "https://647ad5d365687c485a6b285d--enchanting-gumption-5f5ab3.netlify.app/",
+    live: "https://1800-flowers-website-clone.vercel.app/",
     tech: [
       { name: "React-Js" },
       { name: "CSS" },
@@ -131,7 +131,7 @@ export const data = [
       "A clone of Ajio website which is an  e-commerce company that offers a wide range of clothing, accessories, and footwear.",
     image: [Ajioone],
     github: "https://github.com/0126prashant/Ajio-Clone",
-    live: "https://splendid-concha-d2fd6d.netlify.app/",
+    live: "https://cute-gumdrop-f02c97.netlify.app/",
     tech: [
       { name: "JavaScript" },
       { name: "Html" },

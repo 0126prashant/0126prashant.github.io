@@ -40,7 +40,7 @@ const About = () => {
 {/* Hide this line for passing the testcases */}
 
 
-      <div className="resume-button">
+      {/* <div className="resume-button">
             <a 
             id="resume-link-2"  
             href={Resume} download={"Prashant-Som-Resume"}
@@ -60,7 +60,7 @@ const About = () => {
                 </div>
               </button>
             </a>
-          </div>
+          </div> */}
        </div>
   );
 };

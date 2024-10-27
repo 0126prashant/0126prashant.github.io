@@ -80,7 +80,7 @@ const Contact = () => {
                  href={Resume} download={"Prashant-Som-Resume"}
             onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1lebhSso8IshOxeoq-7VoFDw_ZyMWCXH1/view?usp=sharing"
+              "https://drive.google.com/file/d/1X0PgCD_1VZVrI_L1hnvZ9YVNbtVGcz6x/view?usp=drive_link"
             )}}
                 className="contact-link"
               >
