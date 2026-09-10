@@ -1,0 +1,1 @@
+import{i as e}from"./framework-C_b1QNvY.js";import{t}from"./button-kZyQtuvg.js";var n=e();function r(){return(0,n.jsx)(t,{variant:`outline`,onClick:()=>window.print(),children:`Print / save PDF ↗`})}export{r as default};
